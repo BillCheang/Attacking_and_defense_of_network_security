@@ -5,8 +5,8 @@ export default function Navbar(){
     return <nav className='nav'>
         <ul>
             <h1>網路攻防實習</h1>
-            <CustomLink to="/Chat">Chat</CustomLink>
-            <CustomLink to="/about">About</CustomLink>
+            <CustomLink to="/Attacking_and_defense_of_network_security/Chat">Chat</CustomLink>
+            <CustomLink to="/Attacking_and_defense_of_network_security/about">About</CustomLink>
         </ul>
         <VisitorCounter />
         <ul>

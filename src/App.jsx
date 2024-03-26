@@ -12,8 +12,9 @@ function App() {
       <div className="container">
          <Routes>
          <Route path="/" element={<Chat />} />
-          <Route path="/Chat" element={<Chat />} />
-          <Route path="/about" element={<About />} />
+         <Route path="/Attacking_and_defense_of_network_security" element={<Chat />} />
+          <Route path="/Attacking_and_defense_of_network_security/Chat" element={<Chat />} />
+          <Route path="Attacking_and_defense_of_network_security/about" element={<About />} />
         </Routes>
       </div>
     </>
